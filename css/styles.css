@@ -9,32 +9,28 @@
 h1 {
   margin: 15px;
   text-align: center;
-  border: 1px solid black;
   font-size: 1.75em;
 }
 
 div{
-  border: 1px solid black;
   height: 100%;
   overflow: auto;
   position:relative;
 }
 
 section{
-  border: 1px solid black;
 overflow:  hidden;
 height: 100%;
-top:0px;
-bottom: 0px;
-  position:inherit;
 }
 
 section section{
+border: 1px solid black;
   margin: 15px;
-  background-color: #858A8A;
+  background-color: #aaa;
 }
 
-.sh1{ color: #FFFFFF;  
+.sh1{ color: #FFFFFF;
+  border: 1px solid black;  
   float:right;
   width: 100px;
   text-align: center;  
